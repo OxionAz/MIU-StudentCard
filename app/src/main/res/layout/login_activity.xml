@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:gravity="center|center_vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_activity_title_text"
+            android:textSize="10pt"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/student_number"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Воити"/>
+
+        <Button
+            android:id="@+id/login_sasha_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Воити как Саша"/>
+
+        <Button
+            android:id="@+id/login_pasha_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Воити как Паша"/>
+
+        <Button
+            android:id="@+id/login_vova_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Воити как Вова"/>
+
+    </LinearLayout>
+</LinearLayout>
